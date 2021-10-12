@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.darkbg{
+
+    background-color: #1f2937;
+}
+
+
+header{
+    display: flex;
+    flex: 1;
+    flex-direction:  row;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.headerLogo{
+    flex: 0.8;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+}
+
+.headerLinks{
+    flex: 0.2;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: nowrap;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text{
+    flex: 0.5;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.textmain{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.textsecondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.main_image{
+    height: auto;
+    width: 700px;
+    padding-left: 15%;
+}
+
+
+.randominfo{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images_container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+.consoles{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.consolesimages{
+    height: 250px;
+    width: 250px;
+    border: 5px solid green; 
+    border-radius: 10%;
+    object-fit: scale-down;
+}
+
+
+.quote{
+    margin: 0%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+}
+
+.quote_text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.calltoaction{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    background-color: #3882f6;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.actiontext{
+    font-size: 18px;
+    color: #F9FAF8;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: white;
+    
+    height: auto;
+    width: 100px;
+}
+
+.buttonborder{
+    border: 1px solid white;
+}
+
+footer{
+    margin:0%;
+}
+
+.footer_text{
+    padding-left: 50%;
+    color: #F9FAF8;
+}
+
+
